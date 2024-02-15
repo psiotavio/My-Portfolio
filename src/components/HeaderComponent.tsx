@@ -18,8 +18,8 @@ const HeaderComponent = () => {
       </div>
       <nav>
         <ul className={showDropdown ? 'dropdown-content' : ''}>
-          <li className={location.pathname === '/home' ? 'active' : ''}>
-            <Link to="/home">Home</Link>
+          <li className={location.pathname === '' ? 'active' : ''}>
+            <Link to="">Home</Link>
           </li>
           <li className={location.pathname === '/portfolio' ? 'active' : ''}>
             <Link to="/portfolio">Portfolio</Link>
