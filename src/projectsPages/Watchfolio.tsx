@@ -133,7 +133,7 @@ const Watchfolio = () => {
 
           <section className="user-feedback">
             <div className="subtitle-projects">
-              <h2>Feedback dos Testadores</h2>
+              <h2>Feedback</h2>
               <hr className="hr-projects" />
             </div>
             <div className="projects-texts">
@@ -167,7 +167,7 @@ const Watchfolio = () => {
 
           <section className="development-experience">
             <div className="subtitle-projects">
-              <h2>Experiência no Desenvolvimento</h2>
+              <h2>Desenvolvimento</h2>
               <hr className="hr-projects" />
             </div>
             <div className="projects-texts">

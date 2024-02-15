@@ -36,6 +36,7 @@ nav ul li a {
 
 
 nav ul li a:hover {
+    cursor: pointer;
     color: #007bff; /* Cor do link quando passa o mouse por cima */
 }
 
