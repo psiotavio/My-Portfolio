@@ -1,0 +1,298 @@
+.me {
+    width: 100%;
+}
+
+.aboutMe{
+    width: 100%;
+}
+
+.two-sides-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .texts{
+    padding: 2em;
+  }
+
+  .two-sides-container-secondary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5em;
+  }
+  
+  .left-side {
+    display: block;
+    padding-left: 2em;
+    margin: auto;
+    width: 80%;
+  }
+
+  .left-side-secondary {
+    display: block;
+    margin: auto;
+    width: 80%;
+  }
+  
+  .right-side-secondary {
+    width: 100%;
+  }
+
+  .right-side {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+  }
+
+  .right-side-skills {
+    height: 100%;
+    width: 100%;
+  }
+
+  .apresentation, .about-me{
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .skillScroll{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+  }
+
+  .skill-title{
+    padding-bottom: 0.5em;
+  }
+
+  .certification-container{
+    display: flex;
+    flex-direction: row;
+    height: 4em;
+    gap: 1em
+
+  }
+
+  .certification-icon{
+    background-size: contain; 
+    background-repeat: no-repeat; 
+  }
+
+  .certification-texts{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 0.15em;
+  }
+
+  .certification-title{
+    font-size: 25px;
+  }
+
+  .certification-informations{
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  .certifications{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+
+.Projects{
+    margin-top: 3em;
+}
+
+.projects-title {
+    display: flex;
+    gap: 1.5em;
+    align-items: center;
+  }
+  
+  .line1 {
+    width: 4.5em;
+    height: 1.5px;
+    background-color: var(--primary-color);
+    border: none; /* Removendo as bordas */
+  }
+
+  .line2 {
+    flex-grow: 1;
+    height: 1.5px;
+    background-color: var(--primary-color);
+    border: none; /* Removendo as bordas */
+  }
+
+  .projects-photos-grid {
+    padding: 2em;
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* Espaçamento entre as imagens */
+  }
+
+  .project-photo{
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0px 0px 30px 2px black;
+    transition: 1s;
+  }
+
+  .endcontainer{
+    margin-bottom: 3.5em;
+    margin-top: 4em;
+    padding: 2em;
+    text-align: center;
+  }
+
+  .project-photo:hover{
+    transition: 1s;
+    border-radius: 40px;
+    width: 100%;
+    transform: scale(1.25);
+    box-shadow: 0px 0px 50px 10px black;
+  }
+
+  .fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .fade-in.active {
+    opacity: 1;
+  }
+
+  .end{
+    padding-bottom: 2rem;
+    margin: auto;
+    width: 90%;
+  }
+  
+
+
+  @media screen and (max-width: 768px) {
+    .two-sides-container {
+        margin-top: 1rem;
+      flex-direction: column-reverse;
+      align-items: center; 
+      width: auto;
+    }
+
+    .two-sides-container-secondary {
+        flex-direction: column;
+        align-items: center; 
+        width: 100%;
+        gap: 1em;
+      }
+
+
+      .right-side {
+        width: 100%;
+        overflow-x: hidden;
+      }
+    .right-side-secondary {
+        width: 120%;
+        overflow-x: hidden;
+      }
+  
+    .left-side {
+      width: 90%; /* Alterar a largura para ocupar toda a largura da tela */
+    }
+
+    .apresentation{
+        margin-bottom: 5em;
+        margin-top: 1em;
+      }
+
+
+      .skill-title{
+        margin-left: 0.5em;
+        padding-bottom: 0.5em;
+      }
+
+      .skillScroll{
+        padding-left: 1em;
+        justify-content: left;
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+      }
+
+      .right-side-skills {
+        width: 85%;
+        margin: auto;
+      }
+
+
+      .certification-container{
+        display: flex;
+        flex-direction: row;
+        height: 4em;
+        gap: 1em
+    
+      }
+
+      
+    
+      .certification-icon{
+        width: 4em;
+        background-size: contain; 
+        background-repeat: no-repeat; 
+      }
+    
+      .certification-texts{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+      }
+    
+      .certification-title{
+        font-size: 16px;
+      }
+    
+      .certification-informations{
+        font-size: 10px;
+      }
+      
+      .certifications{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .line1 {
+        width: 6em;
+        height: 1.5px;
+        background-color: var(--primary-color);
+        border: none; 
+      }
+    
+      .line2 {
+        width: 6em;
+        flex-grow: 1;
+        height: 1.5px;
+        background-color: var(--primary-color);
+        border: none;
+      }
+
+      .projects-photos-grid {
+        padding: 2em;
+        margin: auto;
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px; 
+      }
+
+      .endcontainer{
+        margin-bottom: 3.5em;
+        margin-top: 1em !important ;
+        padding: 2em;
+        text-align: center;
+      }
+  }
+  
+

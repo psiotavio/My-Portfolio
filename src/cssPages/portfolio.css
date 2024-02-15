@@ -1,0 +1,79 @@
+.title {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.posters {
+  width: 11rem;
+  height: 20rem;
+  border-radius: 15px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
+  object-fit: cover;
+  margin-right: 2.5vw;
+  transition: width 1s, height 1s; 
+  
+}
+
+.posters:hover {
+  width: 26rem;
+  height: 15rem; 
+  transition: width 1s, height 1s; 
+  margin-right: 3vw; 
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.scrollportSection {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+}
+
+.scrollport {
+  align-self: center;
+  width: 100vw;
+  overflow-x: scroll;
+}
+.photoProjectsScroll {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-left: 13vw;
+}
+
+.projectsTitle {
+  padding: 1rem;
+  font-size: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .photoProjectsScroll {
+    gap: 1rem !important;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5vw !important;
+    margin-right: 5vw !important;
+  }
+
+  .posters {
+    width: 11rem;
+    height: 20rem;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
+    object-fit: cover;
+    margin-right: 2.5vw;
+  }
+  
+  .posters:hover {
+    width: 11rem;
+    height: 20rem;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
+    object-fit: cover;
+    margin-right: 2.5vw;
+  }
+}
+
+    
+
