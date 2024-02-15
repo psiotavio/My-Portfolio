@@ -36,11 +36,13 @@ const Portfolio = () => {
               </div>
 
               <div>
+              <Link to="/connectPharmacy">
                 <img
                   className="posters"
                   src={connectPharmacyPoster}
                   alt="Connect Pharmacy Poster"
                 />
+                </Link>
               </div>
               <div>
                 <img

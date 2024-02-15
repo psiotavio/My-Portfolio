@@ -41,8 +41,16 @@
     width: 20vw;
     height: 78vh;
     object-fit: cover;
-    border-radius: 2rem;
+    border-radius: 1rem;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
+}
+
+.projects-photo-horizontal{
+  width: 40vw;
+  height: 22.5vw;
+  object-fit: cover;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
 }
 
 .project-photos-container {

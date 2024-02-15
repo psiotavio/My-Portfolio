@@ -6,6 +6,7 @@ import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import Home from "./Home";
 import Vitimas from "./projectsPages/Vitimas";
+import ConnectPharmacy from "./projectsPages/ConnectPharmacy";
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
           <Route path="" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
+          
           <Route path="/vitimas" element={<Vitimas />} />
+          <Route path="/connectPharmacy" element={<ConnectPharmacy />} />
         </Routes>
       </div>
     </Router>
