@@ -14,7 +14,7 @@ import twitter from "./assets/redesigns/twitter.png";
 import primeVideo from "./assets/redesigns/prime.png";
 
 import DownloadButton from "./components/ButtonComponent";
-import "./home.css";
+import "./cssPages/home.css"
 import CircularProgressBar from "./components/CircularProgressBar";
 import LinearProgressBar from "./components/LinearProgressBar";
 

@@ -1,11 +1,15 @@
-import React from 'react';
+import React from "react";
+import "./cssPages/contact.css";
 
 const Contact = () => {
   return (
-    <div>
-      <h1>This is the Contact page</h1>
-      <p>Feel free to contact us!</p>
-    </div>
+    <body>
+      <div className="content">
+        <h1>This is the Contact page</h1>
+        <p>Feel free to contact us!</p>
+      
+      </div>
+    </body>
   );
 };
 
