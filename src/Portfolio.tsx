@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 import instagramPoster from "./assets/posters/instagramPoster.png";
 import twitterPoster from "./assets/posters/twitterPoster.png";
@@ -26,7 +26,7 @@ const Portfolio = () => {
           <div className="scrollport">
             <div className="photoProjectsScroll">
               <div>
-              <Link to="/vitimas">
+                <Link to="/vitimas">
                   <img
                     className="posters"
                     src={vitimasDeCrimePoster}
@@ -36,20 +36,22 @@ const Portfolio = () => {
               </div>
 
               <div>
-              <Link to="/connectPharmacy">
-                <img
-                  className="posters"
-                  src={connectPharmacyPoster}
-                  alt="Connect Pharmacy Poster"
-                />
+                <Link to="/connectPharmacy">
+                  <img
+                    className="posters"
+                    src={connectPharmacyPoster}
+                    alt="Connect Pharmacy Poster"
+                  />
                 </Link>
               </div>
               <div>
-                <img
-                  className="posters"
-                  src={watchfolioPoster}
-                  alt="Watchfolio Poster"
-                />
+                <Link to="/watchfolio">
+                  <img
+                    className="posters"
+                    src={watchfolioPoster}
+                    alt="Watchfolio Poster"
+                  />
+                </Link>
               </div>
               <div>
                 <img

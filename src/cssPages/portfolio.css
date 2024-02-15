@@ -26,8 +26,6 @@
 .scrollportSection {
   display: flex;
   flex-direction: column;
-  margin: auto;
-  width: 100%;
 }
 
 .scrollport {
@@ -39,7 +37,7 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  margin-left: 13vw;
+  margin-left: 10vw;
 }
 
 .projectsTitle {

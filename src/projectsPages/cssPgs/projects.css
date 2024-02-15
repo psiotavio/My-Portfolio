@@ -66,10 +66,16 @@
      gap: 3.5rem;
      align-items: center;
   }
+  .project-photos-container-3grid{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 0fr); 
+    gap: 40px; 
+  }
   
 
   @media screen and (max-width: 768px) {
-    .project-photos-container {
+    .project-photos-container, .project-photos-container-3grid {
         width: fit-content;
         display: flex;
         flex-direction: column;
