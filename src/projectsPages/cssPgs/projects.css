@@ -73,7 +73,7 @@
         width: fit-content;
         display: flex;
         flex-direction: column;
-        gap: 40px; /* Espaço entre as imagens */
+        gap: 25px; 
       }
 
       .projects-photo-vertical{
@@ -82,5 +82,13 @@
         object-fit: cover;
         border-radius: 2rem;
         box-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
+    }
+
+    .projects-photo-horizontal{
+      width: 80vw;
+      height: auto !important;
+      object-fit: cover;
+      border-radius: 1rem;
+      box-shadow: 2px 2px 20px rgba(0, 0, 0, 1);
     }
   }
