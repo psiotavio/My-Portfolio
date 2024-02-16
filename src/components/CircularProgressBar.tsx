@@ -37,7 +37,7 @@ const CircularProgressBar: React.FC<CircularProgressBarProps> = ({
           strokeDasharray={circumference}
           strokeDashoffset={circumference - progressLength}
         />
-        <text x="50" y="55" className="progress-text">
+        <text x="50" y="57" className="progress-text" style={{ fontSize: "24px" }}>
           {progress}
         </text>
       </svg>

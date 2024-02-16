@@ -75,10 +75,7 @@
 
   }
 
-  .certification-icon{
-    background-size: contain; 
-    background-repeat: no-repeat; 
-  }
+
 
   .certification-texts{
     display: flex;
@@ -173,6 +170,12 @@
   }
   
 
+  .certification-icon{
+      width: 70px;
+      height: auto;
+      object-fit: contain;
+  }
+
 
   @media screen and (max-width: 768px) {
     .two-sides-container {
@@ -188,7 +191,6 @@
         width: 100%;
         gap: 1em;
       }
-
 
       .right-side {
         width: 100%;
@@ -240,8 +242,7 @@
     
       .certification-icon{
         width: 4em;
-        background-size: contain; 
-        background-repeat: no-repeat; 
+        object-fit: cover;
       }
     
       .certification-texts{

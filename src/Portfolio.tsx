@@ -126,33 +126,42 @@ const Portfolio = () => {
           <h1 className="projectsTitle">Projects</h1>
           <div className="scrollport">
             <div className="photoProjectsScroll">
+            <div>
+                <Link to="/vitimas">
+                  <img
+                    className="posters"
+                    src={vitimasDeCrimePoster}
+                    alt="Vitimas de Crime Poster"
+                  />
+                </Link>
+              </div>
+
               <div>
-                <img
-                  className="posters"
-                  src={vitimasDeCrimePoster}
-                  alt="Vitimas de Crime Poster"
-                />
+                <Link to="/connectPharmacy">
+                  <img
+                    className="posters"
+                    src={connectPharmacyPoster}
+                    alt="Connect Pharmacy Poster"
+                  />
+                </Link>
               </div>
               <div>
-                <img
-                  className="posters"
-                  src={connectPharmacyPoster}
-                  alt="Connect Pharmacy Poster"
-                />
+                <Link to="/watchfolio">
+                  <img
+                    className="posters"
+                    src={watchfolioPoster}
+                    alt="Watchfolio Poster"
+                  />
+                </Link>
               </div>
               <div>
-                <img
-                  className="posters"
-                  src={watchfolioPoster}
-                  alt="Watchfolio Poster"
-                />
-              </div>
-              <div>
+                <Link to="/potterdle">
                 <img
                   className="posters"
                   src={potterdlePoster}
                   alt="Potterdle Poster"
                 />
+                </Link>
               </div>
             </div>
           </div>
