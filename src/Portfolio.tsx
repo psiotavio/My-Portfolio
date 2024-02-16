@@ -54,11 +54,13 @@ const Portfolio = () => {
                 </Link>
               </div>
               <div>
+                <Link to="/potterdle">
                 <img
                   className="posters"
                   src={potterdlePoster}
                   alt="Potterdle Poster"
                 />
+                </Link>
               </div>
               <div>
                 <img
