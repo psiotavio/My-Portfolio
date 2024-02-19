@@ -179,6 +179,14 @@
 
 
   @media screen and (max-width: 768px) {
+
+    .project-photo:hover{
+      border-radius: 10px !important;
+      width: 100% !important;
+      box-shadow: 0px 0px 30px 2px black !important;
+      transition: 0s !important;
+    }
+
     .two-sides-container {
         margin-top: 1rem;
       flex-direction: column-reverse;
