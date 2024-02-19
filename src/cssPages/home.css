@@ -133,6 +133,7 @@
   }
 
   .project-photo{
+    object-fit: cover;
     border-radius: 10px;
     width: 100%;
     box-shadow: 0px 0px 30px 2px black;
