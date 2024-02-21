@@ -3,6 +3,9 @@ import me from "./assets/me.png";
 import aboutMe from "./assets/aboutMe.png";
 import certificationIcon from "./assets/studyIcon.png";
 
+import { FaJs, FaJava, FaReact, FaNodeJs } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
+
 import connectPharmacy from "./assets/projects/connect.png";
 import potterdle from "./assets/projects/potterdle.png";
 import vitimasDoCrime from "./assets/projects/vitimas.png";
@@ -14,7 +17,7 @@ import twitter from "./assets/redesigns/twitter.png";
 import primeVideo from "./assets/redesigns/prime.png";
 
 import DownloadButton from "./components/ButtonComponent";
-import "./cssPages/home.css"
+import "./cssPages/home.css";
 import CircularProgressBar from "./components/CircularProgressBar";
 import LinearProgressBar from "./components/LinearProgressBar";
 
@@ -61,6 +64,13 @@ const Home = () => {
               <p className="subtitle">BEM VINDO</p>
               <h1>Eu sou Otávio Cunha</h1>
               <p>UI/UX DESIGNER, FRONT-END AND GAME DEVELOPER</p>
+              <div className="icon-container">
+                <FaJava className="icons" />
+                <FaJs className="icons" />
+                <SiTypescript className="icons" />
+                <FaNodeJs className="icons" />
+                <FaReact className="icons" />
+              </div>
               <DownloadButton text={"Download CV"} />
             </div>
             <div className="right-side-secondary">
@@ -119,6 +129,7 @@ const Home = () => {
               <CircularProgressBar progress={7.5} text={"React Native"} />
               <CircularProgressBar progress={9} text={"Figma"} />
               <CircularProgressBar progress={5} text={"C#"} />
+              <CircularProgressBar progress={6} text={"Python"} />
             </div>
 
             <div className="two-sides-container-secondary">
