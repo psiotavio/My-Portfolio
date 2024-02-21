@@ -9,6 +9,10 @@ import Vitimas from "./projectsPages/Vitimas";
 import ConnectPharmacy from "./projectsPages/ConnectPharmacy";
 import Watchfolio from "./projectsPages/Watchfolio";
 import Potterdle from "./projectsPages/Potterdle";
+import PrimeVideo from "./projectsPages/PrimeVideo";
+import Spotify from "./projectsPages/Spotify";
+import Instagram from "./projectsPages/Instagram";
+import Twitter from "./projectsPages/Twitter";
 
 function App() {
   return (
@@ -24,6 +28,11 @@ function App() {
           <Route path="/connectPharmacy" element={<ConnectPharmacy />} />
           <Route path="/watchfolio" element={<Watchfolio />} />
           <Route path="/potterdle" element={<Potterdle />} />
+
+          <Route path="/spotify" element={<Spotify />} />
+          <Route path="/prime-video" element={<PrimeVideo />} />
+          <Route path="/instagram" element={<Instagram />} />
+          <Route path="/twitter" element={<Twitter />} />
         </Routes>
       </div>
     </Router>

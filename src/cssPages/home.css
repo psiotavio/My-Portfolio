@@ -8,7 +8,7 @@
 
 .icon-container {
   padding: 0.5rem;
-  margin-bottom: 2.5vh;
+  margin-bottom: 3vh;
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -315,4 +315,16 @@
     padding: 2em;
     text-align: center;
   }
+
+  .icons {
+    font-size: 23px;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .icons:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
 }
