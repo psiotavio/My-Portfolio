@@ -25,7 +25,7 @@ const HeaderComponent = () => {
             <Link to="/portfolio">Portfolio</Link>
           </li>
           <li className={location.pathname === '/contact' ? 'active' : ''}>
-            <Link to="/contact">Contato</Link>
+            <Link to="/sobre">Sobre</Link>
           </li>
         </ul>
         <div className="menu-icon" onClick={toggleDropdown}>

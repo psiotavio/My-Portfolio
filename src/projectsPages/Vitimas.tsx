@@ -125,6 +125,15 @@ const Vitimas = () => {
             <li>
               <a
                 className="links"
+                href=" https://www.pucrs.br/blog/pucrs-ira-desenvolver-software-para-protecao-a-vitimas-de-violencia/"
+              >
+                PUCRS irá desenvolver software para proteção a vítimas de
+                violência
+              </a>
+            </li>
+            <li>
+              <a
+                className="links"
                 href="https://tools.ages.pucrs.br/vitimas-de-crime/wiki/-/wikis/home"
               >
                 Wiki do Projeto
@@ -151,7 +160,7 @@ const Vitimas = () => {
         </section>
 
         <section className="photos-projects">
-            <h1>Screenshots</h1>
+          <h1>Screenshots</h1>
           <div className="project-photos-container">
             <img className="projects-photo-vertical" src={Sobre} alt="Sobre" />
             <img
