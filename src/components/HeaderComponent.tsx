@@ -19,13 +19,13 @@ const HeaderComponent = () => {
       <nav>
         <ul className={showDropdown ? 'dropdown-content' : ''}>
           <li className={location.pathname === '' ? 'active' : ''}>
-            <Link to="">Home</Link>
+            <Link to="">Início</Link>
           </li>
           <li className={location.pathname === '/portfolio' ? 'active' : ''}>
             <Link to="/portfolio">Portfolio</Link>
           </li>
           <li className={location.pathname === '/contact' ? 'active' : ''}>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact">Contato</Link>
           </li>
         </ul>
         <div className="menu-icon" onClick={toggleDropdown}>

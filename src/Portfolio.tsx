@@ -15,7 +15,7 @@ import "./cssPages/portfolio.css";
 
 const Portfolio = () => {
   return (
-    <div>
+    <body>
       <div className="content">
         <section className="title">
           <h1>Portfolio</h1>
@@ -198,7 +198,7 @@ const Portfolio = () => {
           </div>
         </section>
       </div>
-    </div>
+    </body>
   );
 };
 
