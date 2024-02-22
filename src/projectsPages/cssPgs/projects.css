@@ -72,6 +72,8 @@
     grid-template-columns: repeat(3, 0fr); 
     gap: 40px; 
   }
+
+
   
 
   @media screen and (max-width: 768px) {
