@@ -11,4 +11,9 @@
   .iconPDF{
     margin-right: 5px;
   }
+
+  .buttonStyle:hover{
+    cursor: pointer;
+    opacity: "90%";
+  }
   
