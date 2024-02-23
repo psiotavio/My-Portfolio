@@ -12,8 +12,11 @@ import NewTheme from "../assets/projectsPagesPhotos/primeVideo/newTheme.png";
 import Party from "../assets/projectsPagesPhotos/primeVideo/party.png";
 import Player from "../assets/projectsPagesPhotos/primeVideo/player.png";
 import White from "../assets/projectsPagesPhotos/primeVideo/white.png";
+import DownloadButton from "../components/ButtonComponent";
 
 const PrimeVideo = () => {
+  const PrimeVideo = require("../pdfs/primevideo.pdf");
+  
   return (
     <div className="content">
       <div className="content-projects">
@@ -134,6 +137,16 @@ const PrimeVideo = () => {
               className="projects-photo-horizontal"
               src={White}
               alt="Tema Claro"
+            />
+          </div>
+        </section>
+
+        <section className="donwloadSection">
+          <div>
+            <DownloadButton
+              text={"Download PDF"}
+              fileUrl={PrimeVideo}
+              fileName={"PrimeVideo-redesign-otavio-cunha"}
             />
           </div>
         </section>

@@ -2,11 +2,12 @@ import React from "react";
 import "./cssPgs/vitimas.css";
 import "./cssPgs/projects.css";
 
-
 import Artist from "../assets/projectsPagesPhotos/spotify/artist.png";
 import Perfil from "../assets/projectsPagesPhotos/spotify/perfil.png";
+import DownloadButton from "../components/ButtonComponent";
 
 const Spotify = () => {
+  const Spotify = require("../pdfs/spotify.pdf");
   return (
     <div className="content">
       <div className="content-projects">
@@ -67,19 +68,29 @@ const Spotify = () => {
         <section className="photos-projects">
           <h1>Screenshots</h1>
           <div className="project-photos-container">
-          <img
+            <img
               className="projects-photo-horizontal"
               src={Artist}
               alt="Página do Artista"
             />
-             <img
+            <img
               className="projects-photo-horizontal"
               src={Perfil}
               alt="Página do perfil"
             />
           </div>
-
         </section>
+
+        <section className="donwloadSection">
+          <div>
+            <DownloadButton
+              text={"Download PDF"}
+              fileUrl={Spotify}
+              fileName={"PrimeVideo-redesign-otavio-cunha"}
+            />
+          </div>
+        </section>
+        
       </div>
     </div>
   );

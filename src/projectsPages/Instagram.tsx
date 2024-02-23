@@ -17,8 +17,11 @@ import White from "../assets/projectsPagesPhotos/instagram/white.png";
 
 import IpadProfile from "../assets/projectsPagesPhotos/instagram/ipadProfile.png";
 import IpadWhite from "../assets/projectsPagesPhotos/instagram/ipadWhite.png";
+import DownloadButton from "../components/ButtonComponent";
 
 const Instagram = () => {
+  const instagramPDF = require("../pdfs/instagram.pdf");
+
   return (
     <div className="content">
       <div className="content-projects">
@@ -166,6 +169,16 @@ const Instagram = () => {
               className="projects-photo-horizontal"
               src={IpadWhite}
               alt="Perfil Redesenhado"
+            />
+          </div>
+        </section>
+
+        <section className="donwloadSection">
+          <div>
+            <DownloadButton
+              text={"Download PDF"}
+              fileUrl={instagramPDF}
+              fileName={"instagram-redesign-otavio-cunha"}
             />
           </div>
         </section>

@@ -3,6 +3,13 @@
   margin-top: 3rem;
 }
 
+.donwloadSection{
+  margin-top: 6rem;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
 .posters {
   width: 11rem;
   height: 20rem;

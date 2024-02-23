@@ -21,7 +21,11 @@ import "./cssPages/home.css";
 import CircularProgressBar from "./components/CircularProgressBar";
 import LinearProgressBar from "./components/LinearProgressBar";
 
+
 const Home = () => {
+  const CurriculoUrl = require("./pdfs/curriculo.pdf");
+
+
   const [visibleSections, setVisibleSections] = useState<string[]>([]);
 
   useEffect(() => {
@@ -71,7 +75,7 @@ const Home = () => {
                 <FaNodeJs className="icons" />
                 <FaReact className="icons" />
               </div>
-              <DownloadButton text={"Download CV"} />
+              <DownloadButton text={"Download CV"} fileUrl={CurriculoUrl} fileName={"curriculo-otavio-cunha"} />
             </div>
             <div className="right-side-secondary">
               <img src={me} className="me" alt="Me" />
@@ -278,7 +282,7 @@ const Home = () => {
           <div className="endcontainer">
             <h1> Interessado no meu trabalho?</h1>
             <p>Baixe o meu currículo para saber mais</p>
-            <DownloadButton text={"Download CV"} />
+            <DownloadButton text={"Download CV"} fileUrl={CurriculoUrl} fileName={"curriculo-otavio-cunha"} />
           </div>
         </section>
 
