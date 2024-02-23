@@ -95,16 +95,36 @@ const Home = () => {
               <div className="texts">
                 <h1>Sobre Mim</h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                  sollicitudin ut augue netus fusce fringilla. Aliquam blandit
-                  enim odio cursus id. Pulvinar commodo pellentesque non massa,
-                  nunc massa nisi est id. Diam est molestie massa commodo
-                  pulvinar aliquam arcu gravida. Dictum pretium senectus dolor
-                  vulputate tempor ac vel. Placerat proin sed risus at fusce
-                  aliquam. Convallis varius auctor quam fusce diam. Vulputate
-                  enim est nibh diam pellentesque. Adipiscing dolor turpis
-                  egestas velit sit feugiat ultricies. Id ac placerat dolor sem
-                  neque elit. Ut nisl turpis nisi etiam ac nibh.
+                  Sou estudante de Engenharia de Software na PUCRS, apaixonado
+                  pelo desenvolvimento de software. Atualmente, estou no quinto
+                  semestre do curso e já participei de diversos projetos
+                  significativos que ampliaram meu conhecimento e experiência.
+                  <br />
+                  <br />
+                  Destaco dois projetos importantes: o Connect Pharmacy, que
+                  visava solucionar problemas relacionados à falta de
+                  medicamentos nos estoques de hospitais, e o Vítimas de Crime,
+                  uma plataforma desenvolvida para garantir direitos às vítimas,
+                  em parceria com o Ministério Público.
+                  <br />
+                  <br />
+                  Além disso, tenho interesse e experiência em UI/UX design, web
+                  development e front-end. Gosto de criar jogos como um hobby e
+                  atualmente estou desenvolvendo "The Night of Nights", um jogo
+                  3D de terror baseado na franquia de quadrinhos "Manifesto: The
+                  Midnight Witch".
+                  <br />
+                  <br />
+                  Minha jornada no ramo da programação me levou a destacar-me na
+                  parte de front-end, onde posso combinar minha paixão pela
+                  programação com meu interesse em design de interface do
+                  usuário.
+                  <br />
+                  <br />
+                  Tenho um sólido conhecimento em diversas linguagens de
+                  programação, incluindo Java, Typescript, React JS, React
+                  Native e Python. Além disso, domino a ferramenta Figma para
+                  design de interfaces.
                 </p>
               </div>
             </div>

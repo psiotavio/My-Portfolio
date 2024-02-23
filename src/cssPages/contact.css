@@ -1,0 +1,16 @@
+.content-text{
+    padding: 2rem;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.text{
+    margin-bottom: 2rem;
+}
+
+.titles{
+    text-align: left;
+}
+

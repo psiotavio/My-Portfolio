@@ -10,7 +10,7 @@ const Sobre = () => {
         </section>
         <section className="content-text">
           <div className="text">
-            <h2>Minha Jornada</h2>
+            <h2 className="titles">Minha Jornada</h2>
             <p>
               Minha jornada começou no ensino médio, onde estudei no Colégio
               Tiradentes da Brigada Militar. Foi lá que tive minhas primeiras
@@ -21,7 +21,7 @@ const Sobre = () => {
             </p>
           </div>
           <div className="text">
-            <h2>Projetos Universitários</h2>
+            <h2 className="titles">Projetos Universitários</h2>
             <p>
               Durante minha trajetória na universidade, participei de dois
               projetos que foram cruciais para o meu desenvolvimento pessoal.
@@ -43,7 +43,7 @@ const Sobre = () => {
             </p>
           </div>
           <div className="text">
-            <h2>Meus Jogos</h2>
+            <h2 className="titles">Meus Jogos</h2>
             <p>
               Sou apaixonado por criar jogos desde 2020, quando comecei a
               explorar a programação mais a fundo. Além de pequenos projetos
@@ -59,9 +59,10 @@ const Sobre = () => {
               Atualmente, estou desenvolvendo dois jogos. Um deles é o "Shadow
               Clicker", inspirado no jogo "Cookie Clicker", porém com uma
               temática de terror. Os jogadores precisam clicar na tela para
-              coletar moedas e cartas de terror.{" "}
-              <i>* esse projeto está em desenvolvimento.</i>
+              coletar moedas e cartas de terror.
             </p>
+            <i>* esse projeto está em desenvolvimento.</i>
+
             <p>
               O segundo jogo se chama "The Night of Nights" e estou
               desenvolvendo junto com a empresa Little Devil, onde sou sócio e
@@ -72,12 +73,13 @@ const Sobre = () => {
               de criaturas sobrenaturais, enfrentando monstros assim como suas
               sombras interiores para domar sua foice devoradora de almas. O
               jogo oferecerá uma experiência única com elementos de horror,
-              bruxaria, saltos no tempo e diferentes dimensões.{" "}
-              <i>* esse projeto está em desenvolvimento.</i>
+              bruxaria, saltos no tempo e diferentes dimensões.
             </p>
+            <i>* esse projeto está em desenvolvimento.</i>
           </div>
+
           <div className="text">
-            <h2>Experiência em Programação</h2>
+            <h2 className="titles">Experiência em Programação</h2>
             <p>
               Ao longo da minha jornada, desenvolvi habilidades sólidas em
               front-end, destacando-me na criação de interfaces visuais
@@ -88,7 +90,7 @@ const Sobre = () => {
             </p>
           </div>
           <div className="text">
-            <h2>Desafios e Aprendizado Contínuo</h2>
+            <h2 className="titles">Desafios e Aprendizado Contínuo</h2>
             <p>
               Sou uma pessoa que adora desafios e está sempre em busca de novos
               conhecimentos. Estou constantemente explorando novas áreas e
