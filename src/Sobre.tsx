@@ -1,5 +1,6 @@
 import React from "react";
 import "./cssPages/contact.css";
+import { FaInstagram, FaGithub, FaGitlab, FaLinkedin } from "react-icons/fa";
 
 import timeConnect from "./assets/sobre/timeConnect.jpg";
 import timeVitimas from "./assets/sobre/timeVitimas.jpg";
@@ -237,6 +238,42 @@ const Sobre = () => {
               mundo da programação e do design tem sido uma jornada emocionante
               e gratificante, e estou ansioso para o que o futuro reserva.
             </p>
+          </div>
+        </section>
+
+        <section className="socialMedia">
+          <div className="icon-container">
+            <a
+              href="https://www.instagram.com/psiotavio?igsh=djY2Y3ZucHhna2Ji&utm_source=qr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram className="icons" />
+            </a>
+
+            <a
+              href="https://github.com/psiotavio"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub className="icons" />
+            </a>
+
+            <a
+              href="https://tools.ages.pucrs.br/otavio.souza"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGitlab className="icons" />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/otavio-cunhap/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin className="icons" />
+            </a>
           </div>
         </section>
       </div>
