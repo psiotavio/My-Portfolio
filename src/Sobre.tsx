@@ -56,7 +56,7 @@ const Sobre = () => {
                   </p>
                   <a
                     className="linksR"
-                    href="https://www.mprs.mp.br/noticias/58422/"
+                    href="https://www.ages.pucrs.br/lista-de-projetos-2023-1/connect-pharmacy/"
                   >
                     Saiba mais
                   </a>
